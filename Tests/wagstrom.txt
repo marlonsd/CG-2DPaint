@@ -1,0 +1,51 @@
+#
+# CS411 - Computer Graphics: Assignment 1
+#
+
+# add a half of triangle
+sf 1.0
+sc 0.8 0.2 0.2
+sr 180.0
+ap 3 -10.0 10.0 10.0 10.0 -10.0 -10.0
+
+# work on the white border
+sf 0.0 
+sr 0.0
+
+# set the color to white
+sc 1.0 1.0 1.0
+# use this to demonstrate translation
+st -9.0 -9.0
+ss 4.5 4.5
+# add a circle around the whole picture
+ac 2.0 2.0 2.0
+ac 2.0 2.0 0.4
+
+
+st 0.0 0.0
+sr 0.0
+ss 1.0 1.0
+
+sc 0.0 0.0 0.0
+al 3 0.0 -10.0 0.0 0.0 10.0 0.0
+al 2 2.0 -1.0 2.0 1.0
+al 2 4.0 -1.0 4.0 1.0
+al 2 6.0 -1.0 6.0 1.0
+al 2 8.0 -1.0 8.0 1.0
+al 2 -1.0 -2.0 1.0 -2.0
+al 2 -1.0 -4.0 1.0 -4.0
+al 2 -1.0 -6.0 1.0 -6.0
+al 2 -1.0 -8.0 1.0 -8.0
+
+sc 1.0 1.0 1.0
+al 3 -10.0 0.0 0.0 0.0 0.0 10.0
+al 2 -8.0 -1.0 -8.0 1.0
+al 2 -6.0 -1.0 -6.0 1.0
+al 2 -4.0 -1.0 -4.0 1.0
+al 2 -2.0 -1.0 -2.0 1.0
+al 2 -1.0 2.0 1.0 2.0
+al 2 -1.0 4.0 1.0 4.0
+al 2 -1.0 6.0 1.0 6.0
+al 2 -1.0 8.0 1.0 8.0
+
+ 

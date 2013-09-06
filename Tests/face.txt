@@ -1,0 +1,26 @@
+#
+#assignment1 demo input file
+#
+
+#draw face outline as a circle
+sf 0.0
+sc 1.0 0.0 0.0
+ac 0.0 0.0 5.0
+
+#draw right eye as a polygon
+sf 1.0
+sc 0.0 1.0 0.0
+ap 3 1.5 1.5 3.5 1.5 2.5 2.5
+
+#draw left eye as a rectangle
+sr 45.0
+st -2.0 2.0
+ar -0.5 -0.5 0.5 0.5
+
+#draw mouth as a polyline
+sc 0.0 0.0 1.0
+sr 0.0
+st 0.0 -2.0
+ss 2.0 2.0
+al 4 -1.0 0.5 -0.5 0.0 0.5 0.0 1.0 0.5
+
